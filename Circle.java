@@ -7,13 +7,11 @@ public class Circle extends Figure {
 	}
 	@Override
 	void findArea() {
-		// TODO Auto-generated method stub
 		System.out.println("Circle area is "+Math.PI*rad*rad);
 	}
 
 	@Override
 	void findPerimeter() {
-		// TODO Auto-generated method stub
 		System.out.println("Circle circumfrence is "+2*Math.PI*rad);
 	}
 
